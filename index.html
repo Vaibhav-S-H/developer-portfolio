@@ -1,105 +1,136 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Vaibhav Hublikar | Data Analyst</title>
+  <title>Vaibhav S H | Data Analyst</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
-   body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0f2027;
-  color: white;
-}
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0f172a;
+      color: white;
+    }
 
-section {
-  padding: 80px 20px;
-  text-align: center;
-}
+    header {
+      text-align: center;
+      padding: 100px 20px;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+    }
 
-.hero {
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-}
+    h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
 
-.dark-section {
-  background: #162d3a;
-}
+    h2 {
+      color: #22d3ee;
+    }
 
-.light-section {
-  background: #1f3c4a;
-}
+    p {
+      max-width: 700px;
+      margin: 20px auto;
+      line-height: 1.6;
+    }
 
-h1 {
-  font-size: 48px;
-}
+    section {
+      padding: 80px 20px;
+      text-align: center;
+    }
 
-h2 {
-  color: #00e6e6;
-}
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 25px;
+      background: #22d3ee;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+    }
 
-p {
-  max-width: 700px;
-  margin: 20px auto;
-  line-height: 1.6;
-}
+    .projects {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
 
-.btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 12px 25px;
-  background: #00e6e6;
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 6px;
-}
+    .card {
+      background: #1e293b;
+      border-radius: 10px;
+      width: 300px;
+      padding: 20px;
+      text-align: left;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 6px;
+    }
+
+    .card h3 {
+      margin-top: 15px;
+      color: #22d3ee;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px;
+      background: #111827;
+    }
 
   </style>
 </head>
 
 <body>
 
-<section class="hero">
+<header>
   <h1>Hi, I'm Vaibhav 👋</h1>
   <h2>Data Analyst | Power BI | Tableau | SQL | Python</h2>
-  <p>
-    I build business intelligence dashboards that transform raw data into actionable insights.
-  </p>
-</section>
+  <p>I build business intelligence dashboards that drive business decisions using data.</p>
 
-<section class="dark-section">
+  <a class="btn" href="Vaibhav_Resume.pdf" download>Download Resume</a>
+  <a class="btn" href="https://github.com/Vaibhav-S-H">GitHub</a>
+  <a class="btn" href="https://linkedin.com/in/vaibhav-h">LinkedIn</a>
+</header>
+
+<section>
   <h2>About Me</h2>
   <p>
-    Engineering graduate with hands-on experience in data analytics.
-    Experienced in building interactive dashboards using Tableau and Power BI.
+    Engineering graduate specializing in analytics and business intelligence.
+    Experienced in building revenue, operations, and defect analysis dashboards.
   </p>
 </section>
 
-<section class="light-section">
-  <h2>Skills</h2>
-  <p>Power BI | Tableau | SQL | Python | Excel | DAX</p>
-</section>
-
-<section class="dark-section">
+<section>
   <h2>Projects</h2>
 
-  <h3>E-Commerce Dashboard</h3>
-  <p>Tableau dashboard analyzing ₹15.4M revenue.</p>
-  <a class="btn" href="https://github.com/Vaibhav-S-H/ecommerce-tableau-dashboard">View Project</a>
+  <div class="projects">
 
-  <br><br>
+    <div class="card">
+      <img src="assets/ecommerce.png">
+      <h3>E-Commerce Dashboard</h3>
+      <p>₹15.4M revenue analysis, customer retention insights, geographic trends.</p>
+      <a class="btn" href="https://github.com/Vaibhav-S-H/ecommerce-tableau-dashboard">View Code</a>
+    </div>
 
-  <h3>Manufacturing Dashboard</h3>
-  <p>Power BI dashboard analyzing production & defect rates.</p>
-  <a class="btn" href="https://github.com/Vaibhav-S-H/manufacturing-operations-dashboard">View Project</a>
+    <div class="card">
+      <img src="assets/manufacturing.png">
+      <h3>Manufacturing Dashboard</h3>
+      <p>Production performance, Pareto defect analysis, on-time delivery tracking.</p>
+      <a class="btn" href="https://github.com/Vaibhav-S-H/manufacturing-operations-dashboard">View Code</a>
+    </div>
+
+  </div>
+
 </section>
 
-<section class="light-section">
-  <h2>Contact</h2>
-  <p>Email: your-email@gmail.com</p>
-</section>
+<footer>
+  <p>© 2026 Vaibhav S H</p>
+</footer>
 
 </body>
-
-
 </html>
