@@ -7,35 +7,63 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="hero">
-        <h1>Hi, I'm <span class="highlight">Vaibhav S-H</span> 👋</h1>
-        <p class="subtitle">Data Analyst | SQL, Power BI & Tableau Specialist</p>
-        <a href="Vaibhav_Resume.pdf" class="btn">Download Resume</a>
-    </div>
 
-    <div class="container">
-        <h2 class="section-title">Skills</h2>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Vaibhav S-H</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="Vaibhav_Resume.pdf" target="_blank">Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="about" class="hero">
+        <div class="hero-icon">⟨ ⟩</div>
+        <h1>Hi, I'm <span class="highlight">Vaibhav S-H</span> 👋</h1>
+        <h3>Data Analyst | SQL, Power BI & Tableau Specialist</h3>
+        <p class="subtitle">
+            Passionate data professional creating end-to-end analytical solutions. 
+            Expert in SQL, Python, and visualization technologies.
+        </p>
+        <div class="social-icons">
+            <a href="#">GitHub</a> | <a href="#">LinkedIn</a> | <a href="#">Email</a>
+        </div>
+    </header>
+
+    <section id="skills" class="container">
+        <h2 class="section-title">Skills 💻</h2>
         <div class="skills-grid">
-            <span class="skill-badge">SQL</span>
+            <span class="skill-badge">SQL (MySQL)</span>
             <span class="skill-badge">Python</span>
             <span class="skill-badge">Tableau</span>
             <span class="skill-badge">Power BI</span>
             <span class="skill-badge">Excel</span>
+            <span class="skill-badge">Data Modeling</span>
         </div>
+    </section>
 
-        <h2 class="section-title">Featured Projects</h2>
+    <section id="projects" class="container">
+        <h2 class="section-title">Featured Projects 🚀</h2>
         <div class="projects-grid">
             <div class="card">
-                <img src="ecommerce.png" alt="E-commerce Project">
-                <h3>Olist E-commerce Dashboard</h3>
-                <p>Advanced Tableau dashboard for business insights.</p>
+                <img src="ecommerce.png" alt="E-commerce">
+                <div class="card-content">
+                    <h3>Olist E-commerce Dashboard</h3>
+                    <p>Advanced Tableau dashboard for business insights and customer behavior.</p>
+                </div>
             </div>
             <div class="card">
-                <img src="manfacturing.png" alt="Manufacturing Project">
-                <h3>Manufacturing Analysis</h3>
-                <p>Data modeling and optimization using SQL.</p>
+                <img src="manfacturing.png" alt="Manufacturing">
+                <div class="card-content">
+                    <h3>Manufacturing Analysis</h3>
+                    <p>Data modeling and production optimization using complex SQL queries.</p>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+
 </body>
 </html>
