@@ -11,29 +11,45 @@ body {
   scroll-behavior: smooth;
 }
 
-/* Navbar */
-nav {
+/* NAVBAR */
+
+.navbar {
   position: fixed;
-  width: 100%;
   top: 0;
-  background: rgba(15, 23, 42, 0.9);
-  padding: 20px 40px;
+  width: 100%;
+  background: #0f172a;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 80px;
   z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
 }
 
-nav a {
+.logo {
+  font-size: 22px;
+  font-weight: 700;
   color: white;
-  text-decoration: none;
-  margin-left: 20px;
-  font-weight: 500;
 }
 
-nav a:hover {
-  color: #22d3ee;
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 35px;
 }
+
+.nav-links a {
+  text-decoration: none;
+  color: #cbd5e1;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #38bdf8;
+}
+
 
 /* Sections */
 section {
@@ -42,7 +58,7 @@ section {
 }
 
 .hero {
-  padding-top: 180px;
+  padding-top: 120px;
 }
 
 h1 {
