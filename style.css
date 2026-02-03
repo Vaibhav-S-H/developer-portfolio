@@ -227,11 +227,11 @@ body {
 
 .project-card img {
     width: 100%;
-    height: 220px;
-    object-fit: contain;   /* shows full image */
-    background: #1a1a1a;   /* fills empty space */
-    padding: 15px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-bottom: 1px solid var(--border);
 }
+
 
 
 .project-info {
