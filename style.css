@@ -237,46 +237,50 @@ body {
 
 /* ================= CONTACT ================= */
 
-.<footer id="contact" class="contact-section container">
+/* CONTACT SECTION */
 
-    <h2 class="section-title">Ready to Build Something Amazing?</h2>
-    <p class="section-subtitle">
-        I'm available for freelance projects and full-time opportunities.
-        Let's discuss how I can help bring your ideas to life.
-    </p>
+.contact-section {
+    text-align: center;
+    padding-bottom: 120px;
+}
 
-    <div class="contact-buttons">
-        <a href="mailto:vaibhavshhublikar@gmail.com" class="primary-btn">
-            🚀 Start a Project
-        </a>
+.contact-buttons {
+    margin: 30px 0 60px;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
 
-        <a href="Vaibhav_Resume.pdf" target="_blank" class="secondary-btn">
-            ⬇ Download Resume
-        </a>
-    </div>
+.primary-btn {
+    background: var(--primary);
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
 
-    <div class="contact-grid">
+.primary-btn:hover {
+    transform: translateY(-4px);
+}
 
-        <a href="mailto:vaibhavshhublikar@gmail.com" class="contact-card">
-            <div class="icon">✉</div>
-            <h4>Email</h4>
-            <p>vaibhavshhublikar@gmail.com</p>
-        </a>
+.secondary-btn {
+    border: 1px solid var(--border);
+    padding: 12px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 600;
+    transition: 0.3s ease;
+}
 
-        <a href="https://www.linkedin.com/in/vaibhav-h/" target="_blank" class="contact-card">
-            <div class="icon">in</div>
-            <h4>LinkedIn</h4>
-            <p>Connect Professionally</p>
-        </a>
+.secondary-btn:hover {
+    background: var(--primary);
+}
 
-        <a href="https://github.com/Vaibhav-S-H" target="_blank" class="contact-card">
-            <div class="icon">🐙</div>
-            <h4>GitHub</h4>
-            <p>View My Code</p>
-        </a>
-
-    </div>
-
-</footer>
-transform: translateY(-5px);
+.contact-card .icon {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
 }
