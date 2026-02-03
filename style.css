@@ -3,12 +3,12 @@
 :root {
     --primary: #8C87E5;
     --dark: #3B3422;
-    --bg: #121212;
-    --card: #1c1c1c;
-    --border: rgba(255,255,255,0.08);
-    --text: #f5f5f5;
+    --bg-gradient: linear-gradient(135deg, #3B3422 0%, #8C87E5 100%);
+    --glass: rgba(255, 255, 255, 0.08);
+    --border: rgba(255, 255, 255, 0.15);
+    --text: #ffffff;
+    --muted: rgba(255, 255, 255, 0.7);
 }
-
 
 * {
     margin: 0;
@@ -237,69 +237,46 @@ body {
 
 /* ================= CONTACT ================= */
 
-/* CONTACT SECTION */
+.<footer id="contact" class="contact-section container">
 
-.contact-section {
-    background: linear-gradient(135deg, #3B3422, #8C87E5);
-    padding: 100px 2rem;
-    border-radius: 30px;
-    margin-top: 100px;
+    <h2 class="section-title">Ready to Build Something Amazing?</h2>
+    <p class="section-subtitle">
+        I'm available for freelance projects and full-time opportunities.
+        Let's discuss how I can help bring your ideas to life.
+    </p>
+
+    <div class="contact-buttons">
+        <a href="mailto:vaibhavshhublikar@gmail.com" class="primary-btn">
+            🚀 Start a Project
+        </a>
+
+        <a href="Vaibhav_Resume.pdf" target="_blank" class="secondary-btn">
+            ⬇ Download Resume
+        </a>
+    </div>
+
+    <div class="contact-grid">
+
+        <a href="mailto:vaibhavshhublikar@gmail.com" class="contact-card">
+            <div class="icon">✉</div>
+            <h4>Email</h4>
+            <p>vaibhavshhublikar@gmail.com</p>
+        </a>
+
+        <a href="https://www.linkedin.com/in/vaibhav-h/" target="_blank" class="contact-card">
+            <div class="icon">in</div>
+            <h4>LinkedIn</h4>
+            <p>Connect Professionally</p>
+        </a>
+
+        <a href="https://github.com/Vaibhav-S-H" target="_blank" class="contact-card">
+            <div class="icon">🐙</div>
+            <h4>GitHub</h4>
+            <p>View My Code</p>
+        </a>
+
+    </div>
+
+</footer>
+transform: translateY(-5px);
 }
-
-
-.contact-buttons {
-    margin: 30px 0 60px;
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-    flex-wrap: wrap;
-}
-
-.primary-btn {
-    background: #ffffff;
-    color: #3B3422;
-    padding: 14px 32px;
-    border-radius: 12px;
-    font-weight: 600;
-    text-decoration: none;
-    transition: 0.3s ease;
-}
-
-.primary-btn:hover {
-    background: #f0f0f0;
-    transform: translateY(-4px);
-}
-
-.secondary-btn {
-    border: 2px solid #ffffff;
-    color: #ffffff;
-    padding: 14px 32px;
-    border-radius: 12px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: 0.3s ease;
-}
-
-.secondary-btn:hover {
-    background: rgba(255,255,255,0.15);
-}
-
-
-.contact-card {
-    background: rgba(255,255,255,0.08);
-    border: 1px solid rgba(255,255,255,0.15);
-    padding: 2rem;
-    border-radius: 18px;
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
-    width: 260px;
-    transition: 0.3s ease;
-}
-
-.contact-card:hover {
-    background: rgba(255,255,255,0.15);
-    transform: translateY(-6px);
-}
-
-
