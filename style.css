@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(135deg, #12002b 0%, #2e004f 100%);
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+.hero { padding: 80px 20px; }
+.highlight { color: #d182ff; }
+.subtitle { color: #bbb; font-size: 1.2rem; }
+.container { max-width: 1000px; margin: auto; padding: 20px; }
+.skill-badge {
+    background: rgba(255,255,255,0.1);
+    border: 1px solid #d182ff;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin: 5px;
+    display: inline-block;
+}
+.projects-grid { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
+.card {
+    background: rgba(255,255,255,0.05);
+    border-radius: 15px;
+    padding: 15px;
+    width: 300px;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+.card img { width: 100%; border-radius: 10px; }
+.btn {
+    display: inline-block;
+    background: #d182ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
